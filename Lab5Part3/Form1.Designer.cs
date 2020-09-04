@@ -51,11 +51,11 @@
             this.txtEmailAddress = new System.Windows.Forms.TextBox();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.lblFeedback = new System.Windows.Forms.Label();
             this.txtCellPhoneNum = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.txtInstagramURL = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.lblFeedback = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -122,7 +122,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(12, 321);
+            this.label7.Location = new System.Drawing.Point(353, 7);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 22);
             this.label7.TabIndex = 6;
@@ -132,7 +132,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(12, 385);
+            this.label8.Location = new System.Drawing.Point(353, 62);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(85, 22);
             this.label8.TabIndex = 7;
@@ -142,7 +142,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(12, 448);
+            this.label9.Location = new System.Drawing.Point(353, 115);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(77, 22);
             this.label9.TabIndex = 8;
@@ -152,7 +152,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(12, 512);
+            this.label10.Location = new System.Drawing.Point(353, 166);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(125, 22);
             this.label10.TabIndex = 9;
@@ -162,7 +162,7 @@
             // 
             this.lblErrorMsg.AutoSize = true;
             this.lblErrorMsg.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblErrorMsg.Location = new System.Drawing.Point(345, 473);
+            this.lblErrorMsg.Location = new System.Drawing.Point(767, 344);
             this.lblErrorMsg.Name = "lblErrorMsg";
             this.lblErrorMsg.Size = new System.Drawing.Size(165, 22);
             this.lblErrorMsg.TabIndex = 10;
@@ -212,7 +212,7 @@
             // 
             // txtStateCode
             // 
-            this.txtStateCode.Location = new System.Drawing.Point(12, 346);
+            this.txtStateCode.Location = new System.Drawing.Point(353, 32);
             this.txtStateCode.MaxLength = 2;
             this.txtStateCode.Name = "txtStateCode";
             this.txtStateCode.Size = new System.Drawing.Size(299, 20);
@@ -220,7 +220,7 @@
             // 
             // txtZipCode
             // 
-            this.txtZipCode.Location = new System.Drawing.Point(12, 410);
+            this.txtZipCode.Location = new System.Drawing.Point(353, 87);
             this.txtZipCode.MaxLength = 5;
             this.txtZipCode.Name = "txtZipCode";
             this.txtZipCode.Size = new System.Drawing.Size(299, 20);
@@ -228,7 +228,7 @@
             // 
             // txtPhoneNum
             // 
-            this.txtPhoneNum.Location = new System.Drawing.Point(12, 473);
+            this.txtPhoneNum.Location = new System.Drawing.Point(353, 140);
             this.txtPhoneNum.MaxLength = 10;
             this.txtPhoneNum.Name = "txtPhoneNum";
             this.txtPhoneNum.Size = new System.Drawing.Size(299, 20);
@@ -236,7 +236,7 @@
             // 
             // txtEmailAddress
             // 
-            this.txtEmailAddress.Location = new System.Drawing.Point(12, 537);
+            this.txtEmailAddress.Location = new System.Drawing.Point(353, 191);
             this.txtEmailAddress.Name = "txtEmailAddress";
             this.txtEmailAddress.Size = new System.Drawing.Size(299, 20);
             this.txtEmailAddress.TabIndex = 20;
@@ -244,7 +244,7 @@
             // btnSubmit
             // 
             this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(12, 699);
+            this.btnSubmit.Location = new System.Drawing.Point(12, 362);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(75, 36);
             this.btnSubmit.TabIndex = 21;
@@ -257,24 +257,16 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(345, 9);
+            this.label12.Location = new System.Drawing.Point(767, 32);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(174, 22);
             this.label12.TabIndex = 23;
             this.label12.Text = "Last Person Entered";
             // 
-            // lblFeedback
-            // 
-            this.lblFeedback.AutoSize = true;
-            this.lblFeedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFeedback.Location = new System.Drawing.Point(331, 51);
-            this.lblFeedback.Name = "lblFeedback";
-            this.lblFeedback.Size = new System.Drawing.Size(0, 22);
-            this.lblFeedback.TabIndex = 24;
-            // 
             // txtCellPhoneNum
             // 
-            this.txtCellPhoneNum.Location = new System.Drawing.Point(12, 598);
+            this.txtCellPhoneNum.Location = new System.Drawing.Point(353, 246);
+            this.txtCellPhoneNum.MaxLength = 10;
             this.txtCellPhoneNum.Name = "txtCellPhoneNum";
             this.txtCellPhoneNum.Size = new System.Drawing.Size(299, 20);
             this.txtCellPhoneNum.TabIndex = 25;
@@ -283,7 +275,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(12, 573);
+            this.label11.Location = new System.Drawing.Point(353, 221);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(113, 22);
             this.label11.TabIndex = 26;
@@ -291,7 +283,7 @@
             // 
             // txtInstagramURL
             // 
-            this.txtInstagramURL.Location = new System.Drawing.Point(12, 663);
+            this.txtInstagramURL.Location = new System.Drawing.Point(353, 292);
             this.txtInstagramURL.Name = "txtInstagramURL";
             this.txtInstagramURL.Size = new System.Drawing.Size(299, 20);
             this.txtInstagramURL.TabIndex = 27;
@@ -300,22 +292,30 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(13, 638);
+            this.label13.Location = new System.Drawing.Point(358, 269);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(129, 22);
             this.label13.TabIndex = 28;
             this.label13.Text = "Instagram URL";
             // 
+            // lblFeedback
+            // 
+            this.lblFeedback.AutoSize = true;
+            this.lblFeedback.Location = new System.Drawing.Point(771, 70);
+            this.lblFeedback.Name = "lblFeedback";
+            this.lblFeedback.Size = new System.Drawing.Size(0, 13);
+            this.lblFeedback.TabIndex = 29;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(817, 747);
+            this.ClientSize = new System.Drawing.Size(1190, 454);
+            this.Controls.Add(this.lblFeedback);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.txtInstagramURL);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtCellPhoneNum);
-            this.Controls.Add(this.lblFeedback);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.txtEmailAddress);
@@ -371,11 +371,11 @@
         private System.Windows.Forms.TextBox txtEmailAddress;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label lblFeedback;
         private System.Windows.Forms.TextBox txtCellPhoneNum;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtInstagramURL;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lblFeedback;
     }
 }
 

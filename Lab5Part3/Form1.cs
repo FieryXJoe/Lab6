@@ -23,7 +23,7 @@ namespace Lab5Part3
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            Customer c = new Customer();
+            PersonV2 c = new PersonV2();//keeping this called c instead of pv2 for ease of conversion
             c.FName = txtFName.Text;
             c.MName = txtMName.Text;
             c.LName = txtLName.Text;
@@ -34,36 +34,12 @@ namespace Lab5Part3
             c.ZipCode = txtZipCode.Text;
             c.PhoneNum = txtPhoneNum.Text;
             c.EmailAddress = txtEmailAddress.Text;
-            //New
             c.CellNum = txtCellPhoneNum.Text;
             c.InstagramURL = txtInstagramURL.Text;
-            //Part 3
- //           c.CustomerSince = txtDateTime.Value;
- //           c.DiscountMember = checkBoxDiscountMember.Checked;
-            //Ensuring correct data types
- /*           if (BasicTools.isValidDouble(txtTotalPurchases.Text))
-            {
-                double temp;
-                Double.TryParse(txtTotalPurchases.Text, out temp);
-                c.TotalPurchases = temp;
-            }
-            else
-            {
-                c.Feedback += "\n Error: Total Purchases not double";
-                c.TotalPurchases = 1;
-            }
-            if (BasicTools.isValidInt(txtRewardsEarned.Text))
-            {
-                int temp;
-                Int32.TryParse(txtRewardsEarned.Text, out temp);
-                c.RewardsEarned = temp;
-            }
-            else
-            {
-                c.Feedback += "\n Error: Rewards Earned not int";
-                c.RewardsEarned = 0;
-            }
- */
+            /*Was previously taking advantage of polymorphism that a Customer without any customer 
+             * unique data was essentially a PersonV2 object with access to all its stuff so I 
+             * kept it Customer and treated it like a PV2 and passed it to PV2 feedback function*/
+
             //This code vastly shortened by moving error feedback to object
             if (c.Feedback.Contains("Error"))
             {
@@ -116,17 +92,6 @@ namespace Lab5Part3
             s += $"\n Address: {p.StreetOne} {p.StreetTwo} , {p.City} {p.StateCode} , {p.ZipCode}";
             s += $"\n Phone Number: {p.PhoneNum} ,\n Cell Number: {p.CellNum}";
             s += $"\n Email: {p.EmailAddress} , \n Instagram : {p.InstagramURL}";
-            lblFeedback.Text = s;
-        }
-        private void setFeedbackVCust(Customer p)
-        {
-            String s = "";
-            s += $"\n Name: {p.FName} {p.MName} {p.LName}";
-            s += $"\n Address: {p.StreetOne} {p.StreetTwo} , {p.City} {p.StateCode} , {p.ZipCode}";
-            s += $"\n Phone Number: {p.PhoneNum} ,\n Cell Number: {p.CellNum}";
-            s += $"\n Email: {p.EmailAddress} , \n Instagram : {p.InstagramURL}";
-            s += $"\n Customer Since: {p.CustomerSince} , Discount Member: {p.DiscountMember}";
-            s += $"\n Total Purchases: {p.TotalPurchases} , Rewards Earned: {p.RewardsEarned}";
             lblFeedback.Text = s;
         }
     }
